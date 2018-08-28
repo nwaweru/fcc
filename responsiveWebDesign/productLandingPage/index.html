@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <style>
-        header {
-            position: fixed;
-        }
-
         #nav-bar {
             background-color:white !important;
         }
@@ -26,41 +22,37 @@
   </head>
   <body>
     <header id="header">
-        <h1 class="text-center">myProduct - Built to Last</h1>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-3">
-                    <img id="header-img" class="img-fluid" src="https://via.placeholder.com/250x75&text=myProduct+Logo" alt="myProduct Logo">
-                </div>
-                <div class="col-5">
-                    <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light pt-3">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+        <nav id="nav-bar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img id="header-img" src="https://via.placeholder.com/30x30&text=Logo" width="30" height="30" class="d-inline-block align-top" alt="myProduct Logo">
+                    myProduct
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#home">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
-    <main class="pt-4">
+    <main class="pt-5">
         <div class="container">
             <div id="home" class="row">
                 <div class="col">
-                    <div class="text-center">
+                    <div class="text-center pt-3">
                         <h1>Welcome to myProduct</h1>
                         <p class="lead text-muted">a product that <em>actually</em> works</p>
                     </div>
