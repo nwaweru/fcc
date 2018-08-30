@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <style>
+            .main-section {
+                padding-top: 20px;
+            }
+            .section-header {
+                font-size: 30px;
+            }
+        </style>
+
+        <title>myAPI - Technical Documentation</title>
+    </head>
+    <body>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <header><a class="navbar-brand" href="#">myAPI</a></header>
+                <br>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Getting_Started">Getting Started</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Basic_Usage">Basic Usage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Create_Aliases">Create Aliases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Youtube_Downloader">Youtube Downloader</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Conclusion">Conclusion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main id="main-doc">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <section id="Getting_Started" class="main-section">
+                            <header class="section-header">Getting Started</header>
+                            <article>
+                                <p>This is as easy as 1-2-3:</p>
+                                <ol>
+                                    <li>Install <a href="https://getcomposer.org/" target="_blank">composer</a> on your machine. A global installation is recommended so you can follow along. <b>Adjust the commands in the documentation to fit your installation.</b></li>
+                                    <li>Open up your <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-the-linux-terminal" target="_blank">terminal</a> and navigate to your project root.</li>
+                                    <li>Run <code>composer require demo/package</code> in your project root to include the myAPI package.</li>
+                                </ol>
+                                <p>That's it! You are ready to consume myAPI!</p>
+    
+                            </article>
+                        </section>
+
+                        <section id="Basic_Usage" class="main-section">
+                            <header class="section-header">Basic Usage</header>
+                            <article>
+                                <p>Since this is just a demo page for the technical documentation, I will just type this out until I get tired.</p>
+                                <p>I can also list out some code blocks as follows:</p>
+                                <ol>
+                                    <li><code>sudo apt update && sudo apt upgrade && sudo apt dist-upgrade</code></li>
+                                    <li>I also like creating aliases for my <b>.bashrc</b> to do the above command.</li>
+                                </ol>
+                            </article>
+                        </section>
+
+                        <section id="Create_Aliases" class="main-section">
+                            <header class="section-header">Create Aliases</header>
+                            <p>Since I already mentioned it, I will explain. <b>Note: I am using Ubuntu 18.04</b></p>
+                            <ol>
+                                <li><code>nano ~/.bashrc</code></li>
+                                <li>Navigate to the bottom of the file.</li>
+                                <li>
+                                    Add an alias entry e.g. for updating my OS.:
+                                    <br>
+                                    <code>alias update="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"</code>
+                                    <br>
+                                    <b>update is just a made up name. I am sure you can do a better codeName.</b>
+                                </li>
+                                <li>Save (and, optionally, close) the file.</li>
+                                <li>Run the command <code>source ~/.bashrc</code></li>
+                            </ol>
+                            <p>That</p>
+                        </section>
+
+                        <section id="Youtube_Downloader" class="main-section">
+                            <header class="section-header">Youtube Downloader</header>
+                            <p>This just came out of nowhere. I manage my YouTube playlists via an <a href="https://rg3.github.io/youtube-dl/" target="_blank">awesome command-line tool called youtube-dl</a>.</p>
+                            <p>It also can download from other sites. I use it mainly for:</p>
+                            <ul>
+                                <li><a href="https://www.youtube.com/user/MrBiggie1969/" target="_blank">YouTube</a></li>
+                                <li><a href="https://www.mixcloud.com/paul-waweru2/" target="_blank">MixCloud</a></li>
+                            </ul>
+                            <p>Check it out. Star the <a href="https://github.com/rg3/youtube-dl/blob/master/README.md#readme" target="_blank">youtube-dl repo on github</a> to give some motivation!</p>
+                        </section>
+
+                        <section id="Conclusion" class="main-section">
+                            <header class="section-header">Conclusion</header>
+                            <p>Feel there is something missing? You can <a href="https://twitter.com/_nwaweru" target="_blank">find me on twitter</a> and DM your ideas.</p>
+                            <p>I am always willing to listen and learn.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- FCC Tests -->
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
